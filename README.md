@@ -1,0 +1,1 @@
+# VirtualTemple-xresources
