@@ -1,38 +1,4 @@
-! urxvt
-URxvt*buffered: true
-URxvt*cursorBlink: true
-URxvt*font: xft:Mx437 IBM BIOS:size=7:antialias=false
-URxvt*depth: 32
-URxvt*scrollBar: false
-URxvt*loginShell: true
-URxvt*secondaryScroll: true
-URxvt*saveLines: 5000
-URxvt*termName: rxvt-unicode
-URxvt*perl-ext-common: default,matcher,resize-font
-URxvt*urlLauncher: lynx
-URxvt*matcher.button: 1
-URxvt.keysym.Shift-Up: command:\033]720;1\007
-URxvt.keysym.Shift-Down: command:\033]721;1\007
-
-!  Efects
-URxvt*transparent: false
-
-!  Border
-URxvt*externalBorder: 2
-URxvt*internalBorder: 1
-URxvt*borderColor: #009a9a
-URxvt*internalBorderColor: #000000
-
-!  Focus
-URxvt*fading: 10
-URxvt*fadeColor: #000000
-
-!  Cursor
-URxvt*cursorColor: #000000
-
-
 # VirtualTemple colorscheme
-
 ! special
 *.foreground:   #00008d
 *.background:   #ffffff

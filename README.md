@@ -6,5 +6,11 @@
 
 ## Installation
 1. Make a backup of your current `.Xresources`.
-2. Copy Xresources to `~/.Xresources`.
-3. Optionally, if you're using i3 with `i3status` append the contents of `i3/bar.conf` to `~/.config/i3/config` e.g. `cat i3/bar.conf >> ~/.config/i3/config`
+2. Copy the colorscheme from Xresources to your `~/.Xresources`.
+
+## Optional steps
+1. If you're using i3 bar with `i3status` replace bar config in <br/>
+`~/.config/i3/config` <br/>
+with config in <br/>
+`i3/bar.conf`
+2. If you're using urxvt terminal emulator use `urxvt/Xresources` instead for a more complete configuration.

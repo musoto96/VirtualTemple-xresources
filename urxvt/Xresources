@@ -1,0 +1,71 @@
+! urxvt
+URxvt*buffered: true
+URxvt*cursorBlink: true
+URxvt*font: xft:Mx437 IBM BIOS:size=7:antialias=false
+URxvt*depth: 32
+URxvt*scrollBar: false
+URxvt*loginShell: true
+URxvt*secondaryScroll: true
+URxvt*saveLines: 5000
+URxvt*termName: rxvt-unicode
+URxvt*perl-ext-common: default,matcher,resize-font
+URxvt*urlLauncher: lynx
+URxvt*matcher.button: 1
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+
+!  Efects
+URxvt*transparent: false
+
+!  Border
+URxvt*externalBorder: 2
+URxvt*internalBorder: 1
+URxvt*borderColor: #009a9a
+URxvt*internalBorderColor: #000000
+
+!  Focus
+URxvt*fading: 10
+URxvt*fadeColor: #000000
+
+!  Cursor
+URxvt*cursorColor: #000000
+
+
+# VirtualTemple colorscheme
+
+! special
+*.foreground:   #00008d
+*.background:   #ffffff
+*.cursorColor:  #00008d
+
+! black
+*.color0:       #000000
+*.color8:       #000000
+
+! red
+*.color1:       #ff0000
+*.color9:       #ff0000
+
+! green
+*.color2:       #009600
+*.color10:      #009600
+
+! yellow
+*.color3:       #969600
+*.color11:      #969600
+
+! blue
+*.color4:       #6300ff
+*.color12:      #6300ff
+
+! magenta
+*.color5:       #ff00c3
+*.color13:      #ff00c3
+
+! cyan
+*.color6:       #009a9a
+*.color14:      #009a9a
+
+! white
+*.color7:       #00008d
+*.color15:      #00008d
